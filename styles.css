@@ -1,0 +1,27 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 216, 158, 0.9);
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgba(255, 105, 180, 0.8);
+}
+
+button {
+    background-color: rgba(147, 112, 219, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(63, 47, 94);
+}
