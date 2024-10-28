@@ -30,7 +30,7 @@ document.getElementById('betButton').addEventListener('click', function() {
     resultados.push(numeroAleatorio);
 
     if (numeroAleatorio === apuestaNumero) {
-        monedas += cantidadApostada * 2; 
+        monedas += cantidadApostada; 
         alert(`¡Ganaste! Apostaste ${cantidadApostada} monedas. Tienes ahora ${monedas} monedas.`);
     } else {
         monedas -= cantidadApostada;
